@@ -1,14 +1,66 @@
-/***************************************************
-GLOBAL STYLES
-****************************************************/
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: rgb(235, 235, 235);
+}
 
+.theme-wrapper {
+  padding: 20px;
+}
 
+header {
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background-color: #fff;
+}
 
-/***************************************************
-DIV CLASSES & IDS
-****************************************************/
+h1 {
+  font-size: 24px;
+}
 
+h2 {
+  font-size: 18px;
+}
 
-/***************************************************
-MEDIA QUERIES
-****************************************************/
+.summary {
+  padding-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.container>* {
+  flex-basis: 25%;
+  padding-right: 20px;
+}
+
+.card {
+  border-radius: 2px;
+  margin-top: 10px;
+  padding: 20px 10px;
+  background-color: #fff;
+}
+
+.card.low {
+  border-left: 3px solid #3DC13C;
+}
+
+.card.normal {
+  border-left: 3px solid #F3BB1B;
+}
+
+.card.high {
+  border-left: 3px solid #FD8E39;
+}
+
+.card.critical {
+  border-left: 3px solid #F13637;
+}
+
+.card.release {
+  border-left: 3px solid #3F66FB;
+}
